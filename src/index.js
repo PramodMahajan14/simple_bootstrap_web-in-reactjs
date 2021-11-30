@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import App from './App';
+import './index.css'
+import "semantic-ui-css"
+
+
+
+
+ReactDOM.render(
+  <React.StrictMode>
+
+  <App/>
+
+ </React.StrictMode>
+ ,
+  document.getElementById('root')
+);

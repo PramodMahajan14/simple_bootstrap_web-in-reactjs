@@ -1,0 +1,14 @@
+.re_card{
+  box-shadow: rgba(0, 0, 0, 0.959) 0px 10px 20px, rgba(0, 0, 0, 0.918) 0px 6px 6px;;
+}
+.wrap{
+  display: inline;
+  flex-wrap: wrap;
+}
+.ui.segment.todo{
+  border: none;
+}
+
+@media (min-height: 320px) {
+  
+}

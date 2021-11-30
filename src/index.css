@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapi.com/css2?family=muli&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "multi",sans-serif;
+}
+
+.navbar{
+  background-color: #fff !important;
+  box-shadow: rgba(98, 170, 218, 0.192) 0px 10px 50px;
+ min-width: 100%;
+ margin-top: 1rem;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-shadow: 0 13.36px 8.896px #a5c0cc3d, 0 -2px 1px #aeecff4b;
+}
+.navbar a:hover{
+ color: #3498db !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1rem solid #565387;
+}
+#header{
+width: 100%;
+height: 80vh;
+margin-top: 50px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size:48px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name{
+  color: #3498db;
+}
+#header h2{
+  color: #484848;
+  font-size: 24px;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius:50px;
+  color:#3498db;
+  border: 2px solid #3498db;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+}
+#header .btn-get-started:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+#header img{
+  text-align: right;
+}
+.mycard{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+@media (max-width:991px) {
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+  .menu_active{
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+#header .animated{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
